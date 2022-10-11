@@ -1,0 +1,438 @@
+body, h1, h2, p{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.bit-logo{
+    height: 25px;
+}
+
+.container{
+    margin: 0 max(15vw,5vw);
+    /*margin-right: 15vw;*/
+    /*margin-left: 15vw;*/
+}
+
+.hero-image{
+    left: 0;
+    z-index: 1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 540px;
+    background: url("vectors/background.jpg") no-repeat center;
+}
+
+.award{
+    min-height: 20em;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    padding-top: 7vh;
+    color: white;
+    font-family: "Montserrat Light";
+}
+
+.award-text h1{
+    font-size: 2em;
+    font-family: "Montserrat SemiBold";
+}
+
+.award-text p{
+    margin-top: 1em;
+}
+
+.under-title{
+    font-size: 1.3em;
+}
+
+.sub-title{
+    font-size: 1.3em;
+    font-family: "Montserrat SemiBold";
+}
+
+.award-img{
+    margin: 2em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.award-img img{
+    height: 10vh;
+    width: auto;
+}
+
+.award-quote{
+    margin-top: 0.3em;
+    font-style: italic;
+    font-size: 0.9em;
+    font-family: "Montserrat SemiBold";
+    text-align: center;
+}
+
+.award-quote-source{
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.promotions{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2em;
+}
+
+.promotion-item{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    margin-top: 12em;
+    box-shadow: 0 0 10px #888888;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    font-family: Montserrat;
+    text-align: center;
+    max-width: 30vw;
+    min-width: 7em;
+}
+
+.promotion-image{
+    max-width: 25vw;
+    margin-top: -150px;
+}
+
+.discount-container{
+    position: absolute;
+    margin-top: 1.2em;
+    margin-left: -120px;
+    background-color: limegreen;
+    border-radius: 50%;
+    height: 7em;
+    width: 7em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount-container h2{
+    font-size: 2.5em;
+    font-family: "Montserrat SemiBold";
+}
+
+.discount-container p{
+    font-size: 0.8em;
+    font-family: "Montserrat Medium";
+}
+
+.promotion-devices{
+    color: dimgray;
+}
+
+.dotted-hr{
+    width: 100%;
+    border-width: 0;
+    border-top: 1px dashed lightgray;
+}
+
+.colored-hr{
+    width: 33%;
+    height: 3px;
+    background-color: red;
+    border-width: 0;
+    margin-top: 1em;
+}
+
+.promotion-os{
+    font-size: 0.9em;
+    min-height: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.promotion-speed{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5em;
+}
+
+.promotion-speed img{
+    height: 16px;
+    width: 16px;
+}
+
+.promotion-speed p{
+    color: dimgray;
+    font-size: 0.9em;
+}
+
+.prices-table{
+    width: 100%;
+    display: grid;
+    justify-items: right;
+    align-content: center;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: dimgray;
+}
+
+.prices-table p:nth-child(5){
+    color: black;
+    font-size: 1.5em;
+}
+
+.prices-table h2{
+    color: black;
+    font-size: 1.5em;
+}
+
+.savings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+    border-radius: 0.3em;
+    color: white;
+    font-family: "Montserrat SemiBold";
+    min-width: 3em;
+    max-height: 1.5em;
+}
+
+.tax{
+    width: 100%;
+    text-align: right;
+    color: dimgray;
+    font-size: 0.7em;
+    margin-bottom: 1em;
+}
+
+.buy{
+    margin-top: 1em;
+    background-color: red;
+    border-radius: 0.5em;
+    border-width: 0;
+    color: white;
+    font-family: "Montserrat SemiBold";
+    width: 100%;
+    height: 3.5em;
+}
+
+.ToS{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.ToS-text{
+    color: dimgray;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+.ToS-text a{
+    text-decoration: none;
+}
+
+.VPN-container{
+    background-color: #eeeeee;
+    border-radius: 0.5em;
+    border-width: 0;
+    font-size: 0.9em;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.VPN-container input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/*Custom checkbox*/
+.checkmark {
+    margin: 0.5em;
+    min-height: 16px;
+    min-width: 16px;
+    background-color: white;
+    border-radius: 100px;
+    background-image: url("vectors/radio-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.VPN-container input:checked ~ .checkmark{
+    background-image: url("vectors/check-fileld.png");
+}
+
+.VPN-container label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.VPN-inner-container{
+    padding: 0.7em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.VPN-new{
+    background-color: limegreen;
+    color: white;
+    font-size: 0.8em;
+    font-style: italic;
+    font-family: "Montserrat SemiBold";
+    border-radius: 2em;
+    padding: 0.2em 0.7em;
+    margin-bottom: 0.5em;
+}
+
+.VPN-features{
+    margin-top: 1em;
+    display: flex;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+.VPN-features img{
+    height: 3.5em;
+}
+
+.VPN-features ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.VPN-features li{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5em 0;
+}
+
+.VPN-features li:nth-child(1) {
+    margin: 0;
+}
+
+.VPN-features li img{
+    margin: 0.2em 1em;
+    height: 10px;
+    width: 12px;
+}
+
+.quotes{
+    margin: 4em 10vw;
+    background-color: #eeeeee;
+    border-radius: 0.5em;
+    border-width: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.editors{
+    width: 100%;
+    margin: 2em 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.editors-item{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.editors-item img{
+    height: 5em;
+    width: auto;
+}
+
+.editors-item span:nth-child(2n){
+    quotes: "“" "”";
+    color: #ff9f00;
+}
+
+.editors-item span:nth-child(2n)::before {
+    content: open-quote;
+}
+.editors-item span:nth-child(2n)::after {
+    content: close-quote;
+}
+
+.editors-item span:nth-child(2n+1){
+    font-size: 0.8em;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    color: white;
+    font-family: "Montserrat Light";
+    font-size: 0.7em;
+
+    overflow: hidden;
+    height: 250px;
+    width: 100vw;
+    background-color: black;
+    background-image: url("vectors/footer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer-container span{
+    color: dimgray;
+}
+
+footer ul{
+    margin: 1.3em 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li{
+    display: inline-block;
+    padding-right: 5px;
+    border-right: 2px solid white;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover{
+    color: red;
+}
+
+footer li:last-child{
+    border-right: none;
+}
