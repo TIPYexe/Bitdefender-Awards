@@ -1,5 +1,5 @@
 @media only screen and (max-width: 800px) {
-    .container{
+    .container {
         max-width: 35em;
     }
 
@@ -7,54 +7,54 @@
         font-size: 1.5em;
     }
 
-    .under-title{
+    .under-title {
         font-size: 1.3em;
     }
 
-    .sub-title{
+    .sub-title {
         font-size: 1em;
     }
 
-    .award{
+    .award {
         flex-direction: column;
         align-items: start;
     }
 
-    .award-img{
+    .award-img {
         margin-top: 2em;
         flex-direction: row;
         column-gap: 2em;
         align-items: center;
     }
 
-    .promotions{
+    .promotions {
         flex-direction: column;
         row-gap: 2em;
         margin-top: 2em;
     }
 
-    .promotion-item{
+    .promotion-item {
         margin: 0 6em;
     }
 
-    .promotion-image{
+    .promotion-image {
         width: 300px;
         min-width: 300px;
         margin-top: -200px;
     }
 
-    .discount-container{
+    .discount-container {
         height: 7em;
         width: 7em;
         margin-left: -120px;
         margin-top: -50px;
     }
 
-    .discount-container h2{
+    .discount-container h2 {
         font-size: 2.5em;
     }
 
-    .discount-container p{
+    .discount-container p {
         font-size: 0.8em;
     }
 
@@ -62,11 +62,11 @@
         min-height: 3em;
     }
 
-    .VPN-features img{
+    .VPN-features img {
         height: 4.3em;
     }
 
-    .quotes{
+    .quotes {
         border-radius: 0.5em;
         max-width: 40em;
     }
@@ -84,30 +84,30 @@
         height: 2em;
     }
 
-    .editors-quote{
+    .editors-quote {
         font-size: 0.8em;
     }
 
-    .editors-name{
+    .editors-name {
         font-size: 0.7em;
     }
 
-    footer{
+    footer {
         background-image: url("vectors/footer-sm.jpg");
     }
 }
 
 @media only screen and (max-width: 450px) {
-    .container{
+    .container {
         max-width: 24em;
     }
 
-    .quotes{
+    .quotes {
         border-radius: 0;
         max-width: 100%;
     }
 
-    .editors{
+    .editors {
         display: flex;
         flex-direction: column;
         row-gap: 2em;
@@ -119,7 +119,7 @@
 }
 
 @media only screen and (min-width: 801px) {
-    .container{
+    .container {
         max-width: 45em;
     }
 
@@ -129,21 +129,21 @@
         column-gap: 2em;
     }
 
-    .award{
+    .award {
         flex-direction: column;
         align-items: start;
         max-width: 100%;
     }
 
-    .under-title{
+    .under-title {
         font-size: 1.3em;
     }
 
-    .sub-title{
+    .sub-title {
         font-size: 1em;
     }
 
-    .award-img{
+    .award-img {
         margin-top: 2em;
         flex-direction: row;
         column-gap: 2em;
@@ -157,17 +157,17 @@
         margin-bottom: 1em;
     }
 
-    .promotions{
+    .promotions {
         margin-top: -50px;
         flex-direction: row;
         column-gap: 2em;
     }
 
-    .promotion-item{
+    .promotion-item {
         width: 100%;
     }
 
-    .promotion-item h2{
+    .promotion-item h2 {
         font-size: 1.2em;
     }
 
@@ -175,25 +175,25 @@
         min-height: 4em;
     }
 
-    .discount-container{
+    .discount-container {
         height: 4.5em;
         width: 4.5em;
         margin-left: -90px;
     }
 
-    .discount-container h2{
+    .discount-container h2 {
         font-size: 1.5em;
     }
 
-    .discount-container p{
+    .discount-container p {
         font-size: 0.6em;
     }
 
-    .promotion-speed p{
+    .promotion-speed p {
         font-size: 0.8em;
     }
 
-    .VPN-features img{
+    .VPN-features img {
         height: 3em;
     }
 
@@ -201,7 +201,7 @@
         font-size: 0.7em;
     }
 
-    .quotes{
+    .quotes {
         border-radius: 0.5em;
         max-width: 48em;
     }
@@ -210,42 +210,42 @@
         height: 5em;
     }
 
-    .editors-quote{
+    .editors-quote {
         font-size: 0.8em;
     }
 
-    .editors-name{
+    .editors-name {
         font-size: 0.7em;
     }
 
-    footer{
+    footer {
         background-image: url("vectors/footer.jpg");
     }
 }
 
 @media only screen and (min-width: 1001px) {
-    .container{
+    .container {
         max-width: 60em;
     }
 
-    .award{
+    .award {
         flex-direction: row;
         align-items: end;
     }
 
-    .award-text{
+    .award-text {
         max-width: 50%;
     }
 
-    .under-title{
+    .under-title {
         font-size: 1.7em;
     }
 
-    .sub-title{
+    .sub-title {
         font-size: 1.4em;
     }
 
-    .award-img{
+    .award-img {
         margin-left: 2em;
         flex-direction: column;
     }
@@ -254,7 +254,7 @@
         margin-top: 2em;
     }
 
-    .promotion-image{
+    .promotion-image {
         width: 250px;
         min-width: 250px;
         margin-top: -150px;
@@ -264,21 +264,21 @@
         min-height: 3em;
     }
 
-    .discount-container{
+    .discount-container {
         height: 5em;
         width: 5em;
         margin-left: -120px;
     }
 
-    .discount-container h2{
+    .discount-container h2 {
         font-size: 2em;
     }
 
-    .discount-container p{
+    .discount-container p {
         font-size: 0.7em;
     }
 
-    .promotion-speed p{
+    .promotion-speed p {
         font-size: 0.9em;
     }
 
@@ -286,19 +286,19 @@
         font-size: 0.9em;
     }
 
-    .VPN-features img{
+    .VPN-features img {
         height: 4.3em;
     }
 
-    .quotes{
+    .quotes {
         max-width: 63em;
     }
 
-    .editors-quote{
+    .editors-quote {
         font-size: 1em;
     }
 
-    .editors-name{
+    .editors-name {
         font-size: 0.8em;
     }
 
@@ -308,41 +308,41 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    .container{
+    .container {
         max-width: 70em;
     }
 
-    .promotion-image{
+    .promotion-image {
         width: 300px;
         min-width: 300px;
         margin-top: -150px;
     }
 
-    .discount-container{
+    .discount-container {
         height: 7em;
         width: 7em;
         margin-top: 1.2em;
         margin-left: -120px;
     }
 
-    .discount-container h2{
+    .discount-container h2 {
         font-size: 2.5em;
     }
 
-    .discount-container p{
+    .discount-container p {
         font-size: 0.8em;
     }
 
-    .quotes{
+    .quotes {
         max-width: 73em;
     }
 }
 
-body, h1, h2, p{
+body, h1, h2, p {
     margin: 0;
 }
 
-header{
+header {
     display: flex;
     justify-content: start;
     background-color: black;
@@ -350,16 +350,16 @@ header{
     padding-bottom: 1em;
 }
 
-.container{
+.container {
     margin: 0 auto;
     width: 100%;
 }
 
-.bit-logo{
+.bit-logo {
     height: 25px;
 }
 
-.hero-image{
+.hero-image {
     z-index: -1;
     content: "";
     position: absolute;
@@ -368,7 +368,7 @@ header{
     background: url("vectors/background.jpg") no-repeat center;
 }
 
-.award{
+.award {
     z-index: 2;
     display: flex;
     padding-top: 7vh;
@@ -376,29 +376,29 @@ header{
     font-family: "Montserrat Light";
 }
 
-.award-text h1{
+.award-text h1 {
     font-family: "Montserrat SemiBold";
 }
 
-.award-text p{
+.award-text p {
     margin-top: 1em;
 }
 
-.sub-title{
+.sub-title {
     font-family: "Montserrat SemiBold";
 }
 
-.award-img{
+.award-img {
     display: flex;
     align-content: center;
 }
 
-.award-img img{
+.award-img img {
     height: 10vh;
     width: auto;
 }
 
-.award-quote{
+.award-quote {
     margin-top: 0.3em;
     font-style: italic;
     font-size: 0.9em;
@@ -406,17 +406,17 @@ header{
     text-align: center;
 }
 
-.award-quote-source{
+.award-quote-source {
     font-size: 0.9em;
     text-align: center;
 }
 
-.promotions{
+.promotions {
     display: flex;
     align-items: center;
 }
 
-.promotion-item{
+.promotion-item {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -430,7 +430,7 @@ header{
     text-align: center;
 }
 
-.discount-container{
+.discount-container {
     position: absolute;
     background-color: limegreen;
     border-radius: 50%;
@@ -441,50 +441,50 @@ header{
     align-items: center;
 }
 
-.discount-container h2{
+.discount-container h2 {
     font-family: "Montserrat SemiBold";
 }
 
-.discount-container p{
+.discount-container p {
     font-family: "Montserrat Medium";
 }
 
-.promotion-devices{
+.promotion-devices {
     color: dimgray;
 }
 
-.dotted-hr{
+.dotted-hr {
     width: 100%;
     border-width: 0;
     border-top: 1px dashed lightgray;
 }
 
-.colored-hr{
+.colored-hr {
     width: 40%;
     height: 2px;
     border-width: 0;
     margin-top: 1em;
 }
 
-.promotion-1{
+.promotion-1 {
     background-color: red;
 }
 
-.promotion-2{
+.promotion-2 {
     background-color: darkmagenta;
 }
 
-.promotion-3{
+.promotion-3 {
     background-color: dodgerblue;
 }
 
-.promotion-os{
+.promotion-os {
     font-size: 0.9em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
 
-.promotion-speed{
+.promotion-speed {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -492,16 +492,16 @@ header{
     column-gap: 0.5em;
 }
 
-.promotion-speed img{
+.promotion-speed img {
     height: 16px;
     width: 16px;
 }
 
-.promotion-speed p{
+.promotion-speed p {
     color: dimgray;
 }
 
-.prices-table{
+.prices-table {
     width: 100%;
     display: grid;
     justify-items: right;
@@ -511,17 +511,17 @@ header{
     color: dimgray;
 }
 
-.prices-table p:nth-child(5){
+.prices-table p:nth-child(5) {
     color: black;
     font-size: 1.5em;
 }
 
-.prices-table h2{
+.prices-table h2 {
     color: black;
     font-size: 1.5em;
 }
 
-.savings{
+.savings {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -533,7 +533,7 @@ header{
     max-height: 1.5em;
 }
 
-.tax{
+.tax {
     width: 100%;
     text-align: right;
     color: dimgray;
@@ -541,7 +541,7 @@ header{
     margin-bottom: 1em;
 }
 
-.buy{
+.buy {
     margin-top: 1em;
     background-color: red;
     border-radius: 0.5em;
@@ -552,22 +552,22 @@ header{
     height: 3.5em;
 }
 
-.ToS{
+.ToS {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
 
-.ToS-text{
+.ToS-text {
     color: dimgray;
     font-size: 0.7em;
     text-align: center;
 }
 
-.ToS-text a{
+.ToS-text a {
     text-decoration: none;
 }
 
-.VPN-container{
+.VPN-container {
     background-color: #eeeeee;
     border-radius: 0.5em;
     border-width: 0;
@@ -578,7 +578,7 @@ header{
     align-items: center;
 }
 
-.VPN-container input{
+.VPN-container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -599,24 +599,24 @@ header{
     background-size: cover;
 }
 
-.VPN-container input:checked ~ .checkmark{
+.VPN-container input:checked ~ .checkmark {
     background-image: url("vectors/check-fileld.png");
 }
 
-.VPN-container label{
+.VPN-container label {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.VPN-inner-container{
+.VPN-inner-container {
     padding: 0.7em 1em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.VPN-new{
+.VPN-new {
     background-color: limegreen;
     color: white;
     font-size: 0.8em;
@@ -627,7 +627,7 @@ header{
     margin-bottom: 0.5em;
 }
 
-.VPN-features{
+.VPN-features {
     margin-bottom: 1em;
     margin-top: 1em;
     display: flex;
@@ -635,20 +635,20 @@ header{
     font-size: 0.8em;
 }
 
-.VPN-features ul{
+.VPN-features ul {
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-.VPN-features li{
+.VPN-features li {
     width: 100%;
     display: flex;
     flex-direction: row;
     margin: 0.5em 0;
 }
 
-.VPN-features p{
+.VPN-features p {
     width: 100%;
     justify-content: center;
 }
@@ -657,13 +657,13 @@ header{
     margin: 0;
 }
 
-.VPN-features li img{
+.VPN-features li img {
     margin: 0.2em 1em;
     height: 10px;
     width: 12px;
 }
 
-.quotes{
+.quotes {
     margin: 4em auto;
     background-color: #eeeeee;
     border-width: 0;
@@ -671,14 +671,14 @@ header{
     justify-content: center;
 }
 
-.editors{
+.editors {
     margin-top: 2em;
     margin-bottom: 2em;
     display: flex;
     justify-content: space-between;
 }
 
-.editors-item{
+.editors-item {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -688,29 +688,29 @@ header{
     font-family: Montserrat;
 }
 
-.editors-item span{
+.editors-item span {
     text-align: center;
 }
 
-.editors-item img{
+.editors-item img {
     width: auto;
 }
 
-.editors-quote{
+.editors-quote {
     color: #ff9f00;
 }
 
 .editors-quote::before {
     content: open-quote;
 }
+
 .editors-quote::after {
     content: close-quote;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
-
     overflow: hidden;
     height: 250px;
     background-color: black;
@@ -718,47 +718,46 @@ footer{
     background-repeat: no-repeat;
 }
 
-.flex-end{
+.flex-end {
     display: flex;
     justify-content: end;
 }
 
-.footer-container{
+.footer-container {
     display: flex;
     flex-direction: column;
     align-items: start;
-
     color: white;
     font-family: "Montserrat Light";
 }
 
-.footer-container span{
+.footer-container span {
     font-size: 0.7em;
     color: dimgray;
 }
 
-footer ul{
+footer ul {
     font-size: 0.7em;
     margin: 1.3em 0 0;
     padding: 0;
     list-style: none;
 }
 
-footer ul li{
+footer ul li {
     display: inline-block;
     padding-right: 5px;
     border-right: 2px solid white;
 }
 
-footer ul li a{
+footer ul li a {
     text-decoration: none;
     color: white;
 }
 
-footer ul li a:hover{
+footer ul li a:hover {
     color: red;
 }
 
-footer li:last-child{
+footer li:last-child {
     border-right: none;
 }
