@@ -67,7 +67,13 @@
     }
 
     .quotes{
+        border-radius: 0.5em;
         max-width: 40em;
+    }
+
+    .editors {
+        flex-direction: row;
+        column-gap: 2em;
     }
 
     .editors-item img {
@@ -91,6 +97,106 @@
     }
 }
 
+@media only screen and (max-width: 450px) {
+    /*.container{*/
+    /*    max-width: 35em;*/
+    /*}*/
+
+    /*.award-text h1 {*/
+    /*    font-size: 1.5em;*/
+    /*}*/
+
+    /*.under-title{*/
+    /*    font-size: 1.3em;*/
+    /*}*/
+
+    /*.sub-title{*/
+    /*    font-size: 1em;*/
+    /*}*/
+
+    /*.award{*/
+    /*    flex-direction: column;*/
+    /*    align-items: start;*/
+    /*}*/
+
+    /*.award-img{*/
+    /*    margin-top: 2em;*/
+    /*    flex-direction: row;*/
+    /*    column-gap: 2em;*/
+    /*    align-items: center;*/
+    /*}*/
+
+    /*.promotions{*/
+    /*    flex-direction: column;*/
+    /*    row-gap: 2em;*/
+    /*    margin-top: 2em;*/
+    /*}*/
+
+    /*.promotion-item{*/
+    /*    margin: 0 6em;*/
+    /*}*/
+
+    /*.promotion-image{*/
+    /*    width: 300px;*/
+    /*    min-width: 300px;*/
+    /*    margin-top: -200px;*/
+    /*}*/
+
+    /*.discount-container{*/
+    /*    height: 7em;*/
+    /*    width: 7em;*/
+    /*    margin-left: -120px;*/
+    /*    margin-top: -50px;*/
+    /*}*/
+
+    /*.discount-container h2{*/
+    /*    font-size: 2.5em;*/
+    /*}*/
+
+    /*.discount-container p{*/
+    /*    font-size: 0.8em;*/
+    /*}*/
+
+    /*.promotion-os {*/
+    /*    min-height: 3em;*/
+    /*}*/
+
+    /*.VPN-features img{*/
+    /*    height: 4.3em;*/
+    /*}*/
+
+    .quotes{
+        border-radius: 0;
+        max-width: 100%;
+    }
+
+    .editors{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2em;
+    }
+
+    .editors-item img {
+        height: 5em;
+    }
+
+    /*.editors-item span {*/
+    /*    height: 2em;*/
+    /*}*/
+
+    /*.editors-quote{*/
+    /*    font-size: 0.8em;*/
+    /*}*/
+
+    /*.editors-name{*/
+    /*    font-size: 0.7em;*/
+    /*}*/
+
+    /*footer{*/
+    /*    background-image: url("vectors/footer-sm.jpg");*/
+    /*}*/
+}
+
 @media only screen and (min-width: 801px) {
     .container{
         max-width: 45em;
@@ -98,6 +204,8 @@
 
     .editors {
         width: 100%;
+        flex-direction: row;
+        column-gap: 2em;
     }
 
     .award{
@@ -173,6 +281,7 @@
     }
 
     .quotes{
+        border-radius: 0.5em;
         max-width: 48em;
     }
 
@@ -636,7 +745,6 @@ header{
 .quotes{
     margin: 4em auto;
     background-color: #eeeeee;
-    border-radius: 0.5em;
     border-width: 0;
     display: flex;
     justify-content: center;
@@ -646,9 +754,7 @@ header{
     margin-top: 2em;
     margin-bottom: 2em;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    column-gap: 2em;
 }
 
 .editors-item{
